@@ -1,0 +1,80 @@
+.ThankYouPageContainer {
+  background-color: #232a34;
+  width: 412px;
+  height: 416px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 45.79px;
+}
+
+.rateContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #262e38;
+  width: 193px;
+  height: 32px;
+  margin-top: 32px;
+  font-family: Overpass;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  border-radius: 22.5px;
+  color: #fc7614;
+}
+
+.thankYouContainer {
+  margin-top: 32px;
+  font-family: Overpass;
+  font-weight: 700;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.textContainer {
+  width: 340px;
+  height: 72px;
+  margin: 7px 40px 0px 32px;
+  font-family: Overpass;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #969fad;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .ThankYouPageContainer {
+    width: 327px;
+    height: 360px;
+  }
+  .iconContainer {
+    margin-top: 34.7px;
+  }
+
+  .rateContainer {
+    width: 168px;
+    height: 32px;
+    font-size: 14px;
+  }
+
+  .thankYouContainer {
+    margin-top: 24px;
+    font-size: 24px;
+  }
+
+  .textContainer {
+    width: 279px;
+    height: 66px;
+    margin: 10px 24px 0px 24px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
